@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Info Card with Social Links</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="info-card">
+    <div class="header">
+        <img src="Images/profile-picture.jpg" alt="Profile Picture" class="profile-picture">
+    </div>
+    <div class="content">
+        <div id="bioSection">
+            <p id="name">Name: Saahiti Andhavarapu</p>
+            <p id="major">Major: Computer Science</p>
+            <p id="year">Year: First-Year</p>
+            <p id="passion">Passionate About: Working on projects that can help improve someone's everyday life and make it easier. </p>
+            <p id="location">From: Charlotte, NC</p>
+        </div>
+        <button id="editBtn" onclick="toggleEdit()">Edit Bio</button>
+        <button id="saveBtn" onclick="saveBio()" style="display: none;">Save Bio</button>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/saahitiandhavarapu/" target="_blank" class="social-link">
+                <img src="Images/linkedin.png" alt="LinkedIn" class="social-icon">
+            </a>
+            <a href="Updated Fall _Saahiti_Andhavarapu_Resume.pdf" target="_blank" class="social-link">
+                <img src="Images/resume.png" alt="Resume" class="social-icon">
+            </a>
+            <a href="https://github.com/saahiti-a" target="_blank" class="social-link">
+                <img src="Images/github.png" alt="GitHub" class="social-icon">
+            </a>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
